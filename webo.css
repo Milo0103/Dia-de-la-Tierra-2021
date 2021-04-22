@@ -1,6 +1,7 @@
 :root {
   --nav-a-color: rgba(255, 255, 255, 1);
   --nav-bg-color: rgba(0, 0, 0, 0);
+  --nav-luna-opacity: 1;
 }
 * {
   margin: 0;
@@ -31,6 +32,19 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.LunaPng {
+  top: 11px;
+  position: absolute;
+  z-index: 2;
+  opacity: var(--nav-luna-opacity);
+}
+.TierraPng {
+  position: absolute;
+  margin-left: 8px;
+  top: 13px;
+  opacity: 1;
+  z-index: 1;
 }
 .nav a {
   color: var(--nav-a-color);
