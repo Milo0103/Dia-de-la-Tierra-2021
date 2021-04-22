@@ -9,13 +9,20 @@
   scroll-behavior: smooth;
 }
 body {
-  background: #17202a;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
 body::-webkit-scrollbar {
   width: 7px;
-  background: rgba(255, 255, 255, 0);
+  background: inherit;
 }
 body::-webkit-scrollbar-thumb {
   background: linear-gradient(to top, #ffe259, #ffa751);
