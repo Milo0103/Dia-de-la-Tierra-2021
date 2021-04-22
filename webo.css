@@ -43,12 +43,13 @@ header {
 .LunaPng {
   top: 11px;
   position: absolute;
+  left: 44px;
   z-index: 2;
   opacity: var(--nav-luna-opacity);
 }
 .TierraPng {
   position: absolute;
-  margin-left: 10px;
+  margin-left: 4px;
   top: 13px;
   opacity: 1;
   z-index: 1;
@@ -147,6 +148,21 @@ h1 {
   background-blend-mode: luminosity;
   background-size: cover;
   background-attachment: fixed;
+}
+#div7 {
+  background-image: url("Apollo11.jpg");
+  background-blend-mode: luminosity;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container7-1 {
+  margin-top: 40px;
+}
+#div7 p {
+  font-size: 16px;
+}
+#div7 em {
+  font-size: 14px;
 }
 .footer {
   position: absolute;
