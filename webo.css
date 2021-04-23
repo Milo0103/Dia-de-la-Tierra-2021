@@ -150,7 +150,7 @@ h1 {
   background-attachment: fixed;
 }
 #div7 {
-  background-image: url("Apollo11.jpg");
+  /* background-image: url("Apollo11.jpg"); */
   background-blend-mode: luminosity;
   background-size: cover;
   background-attachment: fixed;
