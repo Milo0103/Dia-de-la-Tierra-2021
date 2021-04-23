@@ -180,15 +180,15 @@ h1 {
   background-color: rgb(255, 255, 255);
 }
 .flecha {
-  transform: translateY(30px) rotate(180deg);
-  position: absolute;
-  left: 50%;
-  padding: 5px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
-  transition: 0.5s;
+  transform: translateY(30px) rotate(180deg) !important;
+  position: absolute !important;
+  left: 50% !important;
+  padding: 5px !important;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  border-radius: 50% !important;
+  transition: 0.5s !important;
 }
 .flecha:hover {
-  transform: scale(1.2) translateY(25px) rotate(180deg);
-  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.2) translateY(25px) rotate(180deg) !important;
+  background-color: rgba(255, 255, 255, 1) !important;
 }
